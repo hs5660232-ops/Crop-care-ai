@@ -1,5 +1,3 @@
-:
-
 🌾 CropCare AI
 Intelligent Offline Multi-Agent Farming Assistant
 <p align="center">
@@ -60,6 +58,7 @@ CropCare AI eliminates these dependencies by operating entirely on the local mac
 ✅ Runs Completely Offline
 
 🧠 System Workflow
+
 Farmer
    │
    ▼
@@ -89,25 +88,30 @@ Coordinator Agent
               │
               ▼
         Download Report
-🏗 Architecture
+
+        🏗 Architecture
 
 (Place your Mermaid diagram here)
 
 🛠 Technology Stack
-Category	Technology
-Programming Language	Python
-User Interface	Streamlit
-Image Processing	Pillow
-Data Processing	Pandas
-Agent Framework	Custom Multi-Agent Architecture
-Communication	JSON-RPC MCP
-Database	Local JSON Files
-Report Generation	Markdown
+
+| Category             | Technology                      |
+| -------------------- | ------------------------------- |
+| Programming Language | Python                          |
+| User Interface       | Streamlit                       |
+| Image Processing     | Pillow                          |
+| Data Processing      | Pandas                          |
+| Agent Framework      | Custom Multi-Agent Architecture |
+| Communication        | JSON-RPC MCP                    |
+| Database             | Local JSON Files                |
+| Report Generation    | Markdown                        |
+
 📁 Repository Structure
 
 (Keep your existing folder tree)
 
 ⚙ Installation
+
 git clone https://github.com/username/CropCare-AI.git
 
 cd CropCare-AI
@@ -117,20 +121,33 @@ python -m venv venv
 venv\Scripts\activate
 
 pip install -r requirements.txt
+
 ▶ Run Application
+
 streamlit run app.py
+
 🧪 Testing
+
 python test_agents.py
+
 📸 Application Preview
-Dashboard	Disease Detection	Final Report
-(Screenshot)	(Screenshot)	(Screenshot)
+
+| Dashboard      | Disease Detection | Final Report   |
+| -------------- | ----------------- | -------------- |
+| *(Screenshot)* | *(Screenshot)*    | *(Screenshot)* |
+
+
 🏆 Kaggle AI Agents Concepts Demonstrated
-Requirement	Implementation
-✅ Multi-Agent Architecture	Coordinator + 7 Specialized Agents
-✅ Model Context Protocol	Local JSON-RPC MCP Server
-✅ Agent Skills	Dynamic Markdown Skill Loading
-✅ Security	Input Validation + Path Sanitization
-✅ Offline Deployment	Zero External Dependencies
+
+| Requirement                | Implementation                       |
+| -------------------------- | ------------------------------------ |
+| ✅ Multi-Agent Architecture | Coordinator + 7 Specialized Agents   |
+| ✅ Model Context Protocol   | Local JSON-RPC MCP Server            |
+| ✅ Agent Skills             | Dynamic Markdown Skill Loading       |
+| ✅ Security                 | Input Validation + Path Sanitization |
+| ✅ Offline Deployment       | Zero External Dependencies           |
+
+
 🔒 Security
 Path Traversal Protection
 Secure File Handling
@@ -175,38 +192,4 @@ Ya Canva/Figma se 1600×500 px ka banner bana kar assets/banner.png me rakh do a
 
 <p align="center">
   <img src="assets/banner.png" width="100%">
-</p>
-
-Isse repository ka first impression kaafi polished aur production-grade lagega.
-
-p aling centre liya ha
-
-<p align="center"> HTML tag ka use GitHub README me content ko center align karne ke liye hota hai.
-
-Example:
-
-<p align="center">
-  <img src="assets/banner.png" width="100%">
-</p>
-
-Isse banner center me display hoga.
-
-Badges ko center karna ho:
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
-  <img src="https://img.shields.io/badge/Offline-100%25-success?style=for-the-badge">
-</p>
-
-Title aur subtitle center me:
-
-<h1 align="center">🌾 CropCare AI</h1>
-
-<p align="center">
-  Intelligent Offline Multi-Agent Farming Assistant
-</p>
-
-<p align="center">
-  <b>Empowering Farmers with AI — Anytime, Anywhere, Even Without Internet</b>
 </p>
