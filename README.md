@@ -179,6 +179,7 @@ The Coordinator Agent invokes all specialist agents.
 The complete report is generated and saved locally.
 
 ---
+https://github.com/user-attachments/assets/9db6dded-557b-46aa-97a8-c3c7775a31f1
 
 # 🤖 Multi-Agent Workflow
 
