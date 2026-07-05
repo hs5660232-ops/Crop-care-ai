@@ -4,6 +4,8 @@
 
 Empowering farmers with AI-powered crop diagnosis, weather analysis, fertilizer planning, irrigation guidance, market intelligence, and government scheme recommendations — **completely offline**.
 
+<img width="1898" height="912" alt="Image" src="https://github.com/user-attachments/assets/a0d8b9a4-d996-4753-8221-fd8466decef4" />
+
 ---
 
 # ✨ Features
