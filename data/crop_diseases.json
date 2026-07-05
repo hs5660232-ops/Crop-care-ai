@@ -1,0 +1,120 @@
+{
+  "Tomato": [
+    {
+      "disease_name": "Tomato Late Blight",
+      "symptoms": "Dark water-soaked spots on leaves, white fungal growth on leaf undersides, dark brown lesions on stems and fruit.",
+      "confidence_score": 0.94,
+      "explanation": "Late blight is a devastating fungal-like disease caused by the oomycete Phytophthora infestans. It spreads rapidly in cool, wet weather, destroying foliage and fruit. Fungal spores can be carried by wind and splash-water.",
+      "medicine": {
+        "chemical": "Fungicide spray containing Chlorothalonil, Mancozeb, or Copper Octanoate.",
+        "biological": "Application of Bacillus subtilis (e.g., Serenade ASO) or Trichoderma harzianum to boost plant immunity."
+      },
+      "fertilizer_advice": "Reduce nitrogen applications as excess nitrogen encourages lush, susceptible foliage. Apply potassium to strengthen cell walls and increase resistance.",
+      "irrigation_advice": "Avoid overhead sprinkler irrigation which keeps foliage wet. Implement drip irrigation or water at the base early in the morning to allow leaves to dry quickly."
+    },
+    {
+      "disease_name": "Tomato Leaf Mold",
+      "symptoms": "Pale green or yellow spots on the upper leaf surfaces, olive-green to brown velvety mold on the corresponding lower surfaces.",
+      "confidence_score": 0.89,
+      "explanation": "Leaf mold, caused by the fungus Passalora fulva, primarily affects tomato plants grown in high humidity environments (like greenhouses). It causes premature leaf drop and weakens the plant.",
+      "medicine": {
+        "chemical": "Use Copper fungicides or Daconil (chlorothalonil) if the disease is severe.",
+        "biological": "Spray neem oil solution or application of Pseudomonas fluorescens to foliage."
+      },
+      "fertilizer_advice": "Maintain balanced N-P-K ratios. Ensure adequate calcium supply to prevent secondary infections.",
+      "irrigation_advice": "Prune lower leaves to improve air circulation and decrease humidity around the canopy. Keep watering consistent and avoid wetting leaves."
+    }
+  ],
+  "Potato": [
+    {
+      "disease_name": "Potato Early Blight",
+      "symptoms": "Small, dark, circular spots with concentric rings (target-like pattern) on older leaves. Spots can merge, causing leaf yellowing and death.",
+      "confidence_score": 0.92,
+      "explanation": "Early blight is caused by the fungus Alternaria solani. It affects leaves, stems, and tubers, typically targeting stressed or older plants under alternating wet and dry conditions.",
+      "medicine": {
+        "chemical": "Fungicides containing Azoxystrobin, Pyraclostrobin, or Chlorothalonil.",
+        "biological": "Bio-fungicides containing Bacillus amyloliquefaciens."
+      },
+      "fertilizer_advice": "Maintain high soil fertility with adequate nitrogen and potassium. Stressed, nutrient-deficient potato plants are significantly more susceptible to Early Blight.",
+      "irrigation_advice": "Avoid overhead watering. Water the crop during the day so foliage dries completely before nightfall."
+    },
+    {
+      "disease_name": "Potato Late Blight",
+      "symptoms": "Water-soaked leaf lesions that turn black/brown, white downy growth on the underside of leaves under humid conditions, rotting tubers.",
+      "confidence_score": 0.96,
+      "explanation": "Caused by Phytophthora infestans (same pathogen as tomato late blight). This disease can wipe out entire fields within a few days under high moisture and temperature ranges of 15-20°C.",
+      "medicine": {
+        "chemical": "Apply systemic fungicides like Metalaxyl-M or Cymoxanil combined with protective Mancozeb.",
+        "biological": "Copper hydroxide spray or Trichoderma-based soil treatments."
+      },
+      "fertilizer_advice": "Stop nitrogen fertilization immediately to curb vegetative growth. Apply soluble silica and potassium to toughen the potato vine tissue.",
+      "irrigation_advice": "Do not irrigate during foggy or overcast periods. Monitor soil moisture closely and allow top soil to dry between waterings."
+    }
+  ],
+  "Wheat": [
+    {
+      "disease_name": "Wheat Leaf Rust",
+      "symptoms": "Small, oval, orange-brown pustules on the upper leaf surfaces, releasing powdery spores that easily rub off on fingers.",
+      "confidence_score": 0.95,
+      "explanation": "Leaf rust, caused by the fungus Puccinia triticina, is the most common rust disease of wheat. It drains nutrients from the plant, reducing kernel size and grain yield.",
+      "medicine": {
+        "chemical": "Triazole-based fungicides (e.g., Tebuconazole, Propiconazole) or Strobilurins.",
+        "biological": "Foliar application of Bacillus subtilis or garlic extract sprays (mild prevention)."
+      },
+      "fertilizer_advice": "Ensure balanced nutrition. Avoid excess nitrogen which delays maturity and makes the wheat crop highly susceptible to rust spores.",
+      "irrigation_advice": "Manage irrigation scheduling to prevent prolonged leaf wetness. Best to irrigate in the early morning hours."
+    },
+    {
+      "disease_name": "Wheat Powdery Mildew",
+      "symptoms": "White to light gray, powdery patches of fungal growth on leaves, stems, and heads. Older patches turn dull gray-brown.",
+      "confidence_score": 0.91,
+      "explanation": "Caused by the fungus Blumeria graminis f. sp. tritici. It thrives in cool, humid, shady conditions with dense crop stands.",
+      "medicine": {
+        "chemical": "Sulfur-based fungicides or systemic triazoles like Flutriafol.",
+        "biological": "Bicarbonate sprays or bio-agents like Streptomyces."
+      },
+      "fertilizer_advice": "Apply adequate potassium and silicon. Reduce seeding rate in future to prevent high canopy humidity.",
+      "irrigation_advice": "Ensure proper drainage and avoid waterlogging. Water when solar radiation is high to speed up evaporation."
+    }
+  ],
+  "Rice": [
+    {
+      "disease_name": "Rice Blast",
+      "symptoms": "Spindle-shaped (diamond) lesions on leaves with reddish-brown borders and gray centers. Can also attack nodes and panicles (neck blast), causing them to break.",
+      "confidence_score": 0.97,
+      "explanation": "Rice blast is caused by the fungus Magnaporthe oryzae. It is one of the most destructive diseases of rice worldwide, favored by high relative humidity and warm temperatures.",
+      "medicine": {
+        "chemical": "Fungicide sprays containing Tricyclazole, Isoprothiolane, or Kasugamycin.",
+        "biological": "Pseudomonas fluorescens formulation for seed treatment and foliar spray."
+      },
+      "fertilizer_advice": "Split nitrogen applications into 3-4 doses rather than a single large application. Maintain optimal soil potassium levels.",
+      "irrigation_advice": "Keep fields flooded at a consistent level (avoid drought stress which triggers blast susceptibility). Drain and re-flood if neck rot begins to show."
+    },
+    {
+      "disease_name": "Rice Brown Spot",
+      "symptoms": "Oval, dark brown lesions on leaves, often with a yellow halo. Lesions are uniform and distributed across the leaf surface.",
+      "confidence_score": 0.88,
+      "explanation": "Brown spot is caused by the fungus Bipolaris oryzae. It is often referred to as a 'poor man's disease' because it typically occurs in soils that are nutrient-deficient, poorly drained, or dry.",
+      "medicine": {
+        "chemical": "Fungicides containing Mancozeb, Carbendazim, or Hexaconazole.",
+        "biological": "Soil application of organic compost and PGPR (Plant Growth-Promoting Rhizobacteria)."
+      },
+      "fertilizer_advice": "Correct nutritional deficiencies immediately. Apply nitrogen, potassium, and silicon to improve resistance.",
+      "irrigation_advice": "Ensure adequate water supply. Prevent the soil from drying out completely. Improve field drainage if soil is waterlogged/anaerobic and toxic."
+    }
+  ],
+  "Cotton": [
+    {
+      "disease_name": "Cotton Leaf Curl",
+      "symptoms": "Upward or downward curling of leaf margins, thickening of leaf veins, and leaf-like growths (enations) on the underside of leaves.",
+      "confidence_score": 0.93,
+      "explanation": "Cotton Leaf Curl Virus (CLCuV) is a destructive viral disease transmitted by the whitefly vector (Bemisia tabaci). It stunts cotton growth and severely reduces boll formation.",
+      "medicine": {
+        "chemical": "No chemical cure for the virus itself. Control the whitefly vector using insecticides like Imidacloprid, Acetamiprid, or Diafenthiuron.",
+        "biological": "Yellow sticky traps for monitoring/trapping whiteflies. Spray neem-based formulation (Azadirachtin) or introduce natural predators like lacewings."
+      },
+      "fertilizer_advice": "Apply micronutrient mixtures (specifically zinc and boron) to help the plant cope with viral stress. Increase potassium dosage.",
+      "irrigation_advice": "Maintain uniform soil moisture. Avoid water stress which attracts whiteflies. Keep fields weed-free as weeds act as alternative hosts for the virus."
+    }
+  ]
+}

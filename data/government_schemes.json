@@ -1,0 +1,42 @@
+[
+  {
+    "scheme_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "scope": "National",
+    "crop_applicability": ["Tomato", "Potato", "Wheat", "Rice", "Cotton"],
+    "state_applicability": "All",
+    "benefits": "Yield insurance coverage against non-preventable natural risks (drought, flood, pests, diseases). Premium rates: 2% for Kharif crops, 1.5% for Rabi crops, and 5% for commercial/horticultural crops.",
+    "eligibility": "All farmers, including sharecroppers and tenant farmers growing notified crops in notified areas."
+  },
+  {
+    "scheme_name": "PM Kisan Samman Nidhi (PM-KISAN)",
+    "scope": "National",
+    "crop_applicability": "All",
+    "state_applicability": "All",
+    "benefits": "Direct income support of INR 6,000 per year in three equal installments of INR 2,000 directly into the bank accounts of farming families.",
+    "eligibility": "All landholding farmer families in the country (subject to certain exclusion criteria like high income taxpayers)."
+  },
+  {
+    "scheme_name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+    "scope": "National",
+    "crop_applicability": "All",
+    "state_applicability": "All",
+    "benefits": "Provides 40% to 50% subsidy for purchasing agricultural machinery (tractors, power tillers, rotavators, sprayers, drip installation machinery) to small and marginal farmers.",
+    "eligibility": "Small, marginal, SC/ST, and women farmers holding valid land identification cards."
+  },
+  {
+    "scheme_name": "Mahabank Crop Loan Scheme",
+    "scope": "State-specific",
+    "state_applicability": "Maharashtra",
+    "crop_applicability": ["Tomato", "Potato", "Cotton", "Rice"],
+    "benefits": "Short-term credit for crop cultivation expenses at highly subsidized interest rates (starting from 4% p.a.) up to INR 3,00,000, with flexible repayment terms aligned with crop harvest cycles.",
+    "eligibility": "Owner cultivators or tenant farmers in Maharashtra holding clear title deeds or land tenancy agreements."
+  },
+  {
+    "scheme_name": "UP Crop Loan Waiver Scheme (Fasal Rin Mochan)",
+    "scope": "State-specific",
+    "state_applicability": "Uttar Pradesh",
+    "crop_applicability": "All",
+    "benefits": "One-time waiver of agricultural crop loans up to INR 1,00,000 taken from commercial or cooperative banks, helping farmers recover from crop failures due to diseases/droughts.",
+    "eligibility": "Small and marginal farmers residing and cultivating in Uttar Pradesh who availed crop loans before the notified date."
+  }
+]

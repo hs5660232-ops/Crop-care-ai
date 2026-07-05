@@ -1,0 +1,60 @@
+{
+  "Tomato": {
+    "Maharashtra": {
+      "Pune": { "apmc_market": "Pune APMC", "price_per_quintal": 2200, "trend": "Stable", "last_updated": "2026-07-05" },
+      "Nashik": { "apmc_market": "Pimpalgaon APMC", "price_per_quintal": 1850, "trend": "Decreasing", "last_updated": "2026-07-05" },
+      "Nagpur": { "apmc_market": "Nagpur APMC", "price_per_quintal": 2400, "trend": "Increasing", "last_updated": "2026-07-05" }
+    },
+    "Uttar Pradesh": {
+      "Lucknow": { "apmc_market": "Lucknow APMC", "price_per_quintal": 2100, "trend": "Stable", "last_updated": "2026-07-05" },
+      "Agra": { "apmc_market": "Agra APMC", "price_per_quintal": 1950, "trend": "Stable", "last_updated": "2026-07-05" },
+      "Varanasi": { "apmc_market": "Varanasi APMC", "price_per_quintal": 2300, "trend": "Increasing", "last_updated": "2026-07-05" }
+    },
+    "Karnataka": {
+      "Bengaluru": { "apmc_market": "Yeshwanthpur APMC", "price_per_quintal": 2600, "trend": "Increasing", "last_updated": "2026-07-05" }
+    }
+  },
+  "Potato": {
+    "Uttar Pradesh": {
+      "Lucknow": { "apmc_market": "Lucknow APMC", "price_per_quintal": 1400, "trend": "Stable", "last_updated": "2026-07-05" },
+      "Agra": { "apmc_market": "Fatehabad APMC", "price_per_quintal": 1350, "trend": "Decreasing", "last_updated": "2026-07-05" },
+      "Varanasi": { "apmc_market": "Varanasi APMC", "price_per_quintal": 1500, "trend": "Stable", "last_updated": "2026-07-05" }
+    },
+    "Punjab": {
+      "Ludhiana": { "apmc_market": "Ludhiana APMC", "price_per_quintal": 1250, "trend": "Decreasing", "last_updated": "2026-07-05" },
+      "Amritsar": { "apmc_market": "Amritsar APMC", "price_per_quintal": 1300, "trend": "Stable", "last_updated": "2026-07-05" }
+    }
+  },
+  "Wheat": {
+    "Punjab": {
+      "Ludhiana": { "apmc_market": "Ludhiana APMC", "price_per_quintal": 2275, "trend": "Stable (MSP)", "last_updated": "2026-07-05" },
+      "Amritsar": { "apmc_market": "Amritsar APMC", "price_per_quintal": 2275, "trend": "Stable (MSP)", "last_updated": "2026-07-05" },
+      "Jalandhar": { "apmc_market": "Jalandhar APMC", "price_per_quintal": 2275, "trend": "Stable (MSP)", "last_updated": "2026-07-05" }
+    },
+    "Uttar Pradesh": {
+      "Lucknow": { "apmc_market": "Lucknow APMC", "price_per_quintal": 2250, "trend": "Stable", "last_updated": "2026-07-05" },
+      "Agra": { "apmc_market": "Agra APMC", "price_per_quintal": 2200, "trend": "Stable", "last_updated": "2026-07-05" }
+    }
+  },
+  "Rice": {
+    "Punjab": {
+      "Ludhiana": { "apmc_market": "Khanna APMC (Largest)", "price_per_quintal": 2183, "trend": "Stable (MSP)", "last_updated": "2026-07-05" }
+    },
+    "Karnataka": {
+      "Bengaluru": { "apmc_market": "Yeshwanthpur APMC", "price_per_quintal": 3100, "trend": "Increasing", "last_updated": "2026-07-05" },
+      "Mysore": { "apmc_market": "Mysore APMC", "price_per_quintal": 2950, "trend": "Stable", "last_updated": "2026-07-05" }
+    },
+    "Tamil Nadu": {
+      "Coimbatore": { "apmc_market": "Coimbatore APMC", "price_per_quintal": 2800, "trend": "Increasing", "last_updated": "2026-07-05" },
+      "Madurai": { "apmc_market": "Madurai APMC", "price_per_quintal": 2700, "trend": "Stable", "last_updated": "2026-07-05" }
+    }
+  },
+  "Cotton": {
+    "Maharashtra": {
+      "Nagpur": { "apmc_market": "Nagpur APMC", "price_per_quintal": 7000, "trend": "Decreasing", "last_updated": "2026-07-05" }
+    },
+    "Karnataka": {
+      "Belagavi": { "apmc_market": "Belagavi APMC", "price_per_quintal": 7200, "trend": "Stable", "last_updated": "2026-07-05" }
+    }
+  }
+}
