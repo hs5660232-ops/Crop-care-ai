@@ -1,190 +1,241 @@
-🌾 CropCare AI
-Intelligent Offline Multi-Agent Farming Assistant
-<p align="center">
+# 🌾 CropCare AI
 
-Empowering Farmers with AI — Anytime, Anywhere, Even Without Internet
+> ### Intelligent Offline Multi-Agent Farming Assistant
 
-</p> <p align="center">
+Empowering farmers with AI-powered crop diagnosis, weather analysis, fertilizer planning, irrigation guidance, market intelligence, and government scheme recommendations — **completely offline**.
 
+---
 
+# ✨ Features
 
+- 🌱 Crop Disease Detection
+- 🌦 Weather Risk Analysis
+- 💊 Medicine Recommendation
+- 🌾 Fertilizer Planning
+- 💧 Irrigation Scheduling
+- 📈 Market Price Analysis
+- 🏛 Government Scheme Finder
+- 📄 Farm Action Plan Generator
 
+---
 
+# 🏗️ System Architecture
 
+```mermaid
+graph TD
 
+Farmer --> Streamlit
 
+Streamlit --> Coordinator
 
+Coordinator --> Disease
 
+Coordinator --> Weather
 
+Coordinator --> Medicine
 
-</p>
-📖 About CropCare AI
+Coordinator --> Fertilizer
 
-CropCare AI is a production-grade offline intelligent farming assistant developed for the Kaggle AI Agents Intensive Capstone (Agents for Good Track).
+Coordinator --> Irrigation
 
-The system combines a Multi-Agent Architecture, Model Context Protocol (MCP), Dynamic Agent Skills, and Rule-Based AI to provide actionable farming recommendations without requiring internet connectivity or paid AI APIs.
+Coordinator --> Market
 
-Designed specifically for rural and low-connectivity environments, CropCare AI enables farmers to diagnose crop diseases, evaluate weather risks, receive fertilizer and irrigation guidance, monitor local market prices, discover government schemes, and generate a complete farm action report—all running locally.
+Coordinator --> Government
 
-🎯 Project Highlights
-Capability	Description
-🌱 Crop Disease Detection	Identifies diseases using image heuristics and symptom matching
-🌦 Weather Intelligence	Predicts disease risk based on humidity and temperature
-💊 Treatment Advisor	Suggests bio and chemical remedies
-🌾 Fertilizer Planner	Calculates balanced NPK recommendations
-💧 Irrigation Planner	Generates optimized watering schedules
-📈 Market Intelligence	Retrieves local APMC crop prices
-🏛 Government Schemes	Matches farmers with relevant subsidy programs
-📄 Action Report	Produces a downloadable Farm Action Plan
-🚀 Why CropCare AI?
+Market --> MCP
 
-Traditional farming applications often rely on:
+Government --> MCP
 
-Internet connectivity
-Cloud AI services
-Paid API subscriptions
-External servers
+Weather --> MCP
 
-CropCare AI eliminates these dependencies by operating entirely on the local machine.
+MCP --> Database
 
-✅ No Internet Required
+Coordinator --> Report
+```
 
-✅ No API Keys
+---
 
-✅ No Cloud Costs
+# 📦 Project Structure
 
-✅ No External AI Models
+```text
+CropCare-AI/
+│
+├── agents/
+├── data/
+├── mcp/
+├── skills/
+├── tools/
+├── app.py
+├── requirements.txt
+└── README.md
+```
 
-✅ Runs Completely Offline
+---
 
-🧠 System Workflow
+# ⚙️ Installation
 
-Farmer
-   │
-   ▼
-Upload Crop Image
-   │
-   ▼
-Streamlit Dashboard
-   │
-   ▼
-Coordinator Agent
-   │
-   ├──────── Disease Agent
-   ├──────── Weather Agent
-   ├──────── Medicine Agent
-   ├──────── Fertilizer Agent
-   ├──────── Irrigation Agent
-   ├──────── Market Agent
-   └──────── Government Scheme Agent
-              │
-              ▼
-        Local MCP Server
-              │
-      Offline JSON Database
-              │
-              ▼
-     Farm Action Plan Generator
-              │
-              ▼
-        Download Report
+### 1️⃣ Clone Repository
 
-        🏗 Architecture
-
-(Place your Mermaid diagram here)
-
-🛠 Technology Stack
-
-| Category             | Technology                      |
-| -------------------- | ------------------------------- |
-| Programming Language | Python                          |
-| User Interface       | Streamlit                       |
-| Image Processing     | Pillow                          |
-| Data Processing      | Pandas                          |
-| Agent Framework      | Custom Multi-Agent Architecture |
-| Communication        | JSON-RPC MCP                    |
-| Database             | Local JSON Files                |
-| Report Generation    | Markdown                        |
-
-📁 Repository Structure
-
-(Keep your existing folder tree)
-
-⚙ Installation
-
-git clone https://github.com/username/CropCare-AI.git
+```bash
+git clone https://github.com/yourusername/CropCare-AI.git
 
 cd CropCare-AI
+```
 
+### 2️⃣ Create Virtual Environment
+
+```bash
 python -m venv venv
+```
 
+### 3️⃣ Activate Environment
+
+Windows
+
+```bash
 venv\Scripts\activate
+```
 
+Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+### 4️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-▶ Run Application
+---
 
+# ▶️ Run Project
+
+Start the Streamlit application.
+
+```bash
 streamlit run app.py
+```
 
-🧪 Testing
+Open your browser and visit:
 
+```text
+http://localhost:8501
+```
+
+---
+
+# 🧪 Test Project
+
+Run the complete multi-agent pipeline.
+
+```bash
 python test_agents.py
+```
 
-📸 Application Preview
+---
 
-| Dashboard      | Disease Detection | Final Report   |
-| -------------- | ----------------- | -------------- |
-| *(Screenshot)* | *(Screenshot)*    | *(Screenshot)* |
+# 🎬 End-to-End Demo Flow
 
+### 1️⃣ Select Crop
 
-🏆 Kaggle AI Agents Concepts Demonstrated
+Choose the crop from the dashboard.
 
-| Requirement                | Implementation                       |
-| -------------------------- | ------------------------------------ |
-| ✅ Multi-Agent Architecture | Coordinator + 7 Specialized Agents   |
-| ✅ Model Context Protocol   | Local JSON-RPC MCP Server            |
-| ✅ Agent Skills             | Dynamic Markdown Skill Loading       |
-| ✅ Security                 | Input Validation + Path Sanitization |
-| ✅ Offline Deployment       | Zero External Dependencies           |
+---
 
+### 2️⃣ Select State & District
 
-🔒 Security
-Path Traversal Protection
-Secure File Handling
-Input Validation
-Offline Execution
-No Hardcoded Credentials
-Local Data Processing Only
-📈 Future Roadmap
-CNN-based Disease Detection
-Voice Assistant
-Hindi & Regional Language Support
-Soil Health Analysis
-Pest Forecasting
-Yield Prediction
-PDF Report Export
-Mobile Application
-🤝 Contributing
+Used for weather, market prices, and government schemes.
 
-Contributions, feature requests, and bug reports are welcome.
+---
 
-Please feel free to fork this repository and submit a pull request.
+### 3️⃣ Upload Leaf Image
 
-📄 License
+Upload a JPG or PNG image.
 
-MIT License
+---
 
-⭐ Support
+### 4️⃣ Enter Symptoms
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+Example:
 
+```text
+Yellow spots on leaves with white powder.
+```
 
-----------------------------------------------------------
-|                     CropCare AI                         |
-|         Intelligent Offline Farming Assistant           |
-|      🌱 Diagnose • 🌦 Analyze • 💧 Recommend • 📈 Sell   |
-----------------------------------------------------------
+---
 
-<p align="center">
-  <img src="assets/banner.png" width="100%">
-</p>
+### 5️⃣ Click "Analyze Crop Health"
+
+The Coordinator Agent invokes all specialist agents.
+
+---
+
+### 6️⃣ Download Farm Action Plan
+
+The complete report is generated and saved locally.
+
+---
+
+# 🤖 Multi-Agent Workflow
+
+✅ Disease Detection Agent
+
+✅ Weather Advisor Agent
+
+✅ Medicine Recommendation Agent
+
+✅ Fertilizer Advisor Agent
+
+✅ Irrigation Planner Agent
+
+✅ Market Analysis Agent
+
+✅ Government Scheme Agent
+
+---
+
+# 🏆 Kaggle AI Agent Concepts
+
+| Concept | Status |
+|---------|--------|
+| Multi-Agent System | ✅ |
+| MCP Server | ✅ |
+| Agent Skills | ✅ |
+| Security | ✅ |
+| Offline Deployment | ✅ |
+
+---
+
+# 🛠 Tech Stack
+
+- Python
+- Streamlit
+- Pillow
+- Pandas
+- JSON
+- JSON-RPC MCP
+- Markdown Skills
+
+---
+
+# 🔒 Security
+
+- ✅ No API Keys
+- ✅ Offline Execution
+- ✅ Path Traversal Protection
+- ✅ Input Validation
+- ✅ Secure File Writing
+
+---
+
+# 📜 License
+
+MIT License.
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
