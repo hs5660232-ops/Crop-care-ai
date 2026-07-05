@@ -1,12 +1,12 @@
+:
+
 🌾 CropCare AI
 Intelligent Offline Multi-Agent Farming Assistant
+<p align="center">
 
-🚜 AI-powered crop disease diagnosis, weather analysis, fertilizer planning, irrigation scheduling, market intelligence, and government scheme recommendations — running completely offline.
+Empowering Farmers with AI — Anytime, Anywhere, Even Without Internet
 
-
-
-
-
+</p> <p align="center">
 
 
 
@@ -14,94 +14,100 @@ Intelligent Offline Multi-Agent Farming Assistant
 
 
 
-📖 Overview
 
-CropCare AI is a production-ready offline intelligent farming assistant built for the Kaggle AI Agents Intensive Vibe Coding Capstone (Agents for Good Track).
 
-Unlike cloud-based AI solutions, CropCare AI requires:
 
-❌ No Internet
-❌ No OpenAI API
-❌ No Gemini API
-❌ No HuggingFace API
-❌ No External Services
 
-Everything runs locally using lightweight rule-based AI agents and an offline MCP server.
 
-✨ Key Features
-Feature	Description
-🌿 Disease Detection	Detect plant diseases using symptom matching and image heuristics
-🌦 Weather Advisor	Estimates infection risk using local weather profiles
-💊 Medicine Recommendation	Suggests organic and chemical treatments
-🌱 Fertilizer Planner	Calculates NPK recommendations
-💧 Irrigation Planner	Generates crop watering schedule
-💰 Market Intelligence	Shows local APMC market prices
-🏛 Government Schemes	Finds eligible agriculture schemes
-📄 Farm Action Plan	Generates downloadable reports
-🏗 Architecture
+</p>
+📖 About CropCare AI
 
-Complete Offline Multi-Agent Pipeline
+CropCare AI is a production-grade offline intelligent farming assistant developed for the Kaggle AI Agents Intensive Capstone (Agents for Good Track).
 
+The system combines a Multi-Agent Architecture, Model Context Protocol (MCP), Dynamic Agent Skills, and Rule-Based AI to provide actionable farming recommendations without requiring internet connectivity or paid AI APIs.
+
+Designed specifically for rural and low-connectivity environments, CropCare AI enables farmers to diagnose crop diseases, evaluate weather risks, receive fertilizer and irrigation guidance, monitor local market prices, discover government schemes, and generate a complete farm action report—all running locally.
+
+🎯 Project Highlights
+Capability	Description
+🌱 Crop Disease Detection	Identifies diseases using image heuristics and symptom matching
+🌦 Weather Intelligence	Predicts disease risk based on humidity and temperature
+💊 Treatment Advisor	Suggests bio and chemical remedies
+🌾 Fertilizer Planner	Calculates balanced NPK recommendations
+💧 Irrigation Planner	Generates optimized watering schedules
+📈 Market Intelligence	Retrieves local APMC crop prices
+🏛 Government Schemes	Matches farmers with relevant subsidy programs
+📄 Action Report	Produces a downloadable Farm Action Plan
+🚀 Why CropCare AI?
+
+Traditional farming applications often rely on:
+
+Internet connectivity
+Cloud AI services
+Paid API subscriptions
+External servers
+
+CropCare AI eliminates these dependencies by operating entirely on the local machine.
+
+✅ No Internet Required
+
+✅ No API Keys
+
+✅ No Cloud Costs
+
+✅ No External AI Models
+
+✅ Runs Completely Offline
+
+🧠 System Workflow
 Farmer
    │
    ▼
-Streamlit UI
+Upload Crop Image
+   │
+   ▼
+Streamlit Dashboard
    │
    ▼
 Coordinator Agent
    │
- ┌─┴─────────────────────────┐
- │ Disease Agent             │
- │ Weather Agent             │
- │ Medicine Agent            │
- │ Fertilizer Agent          │
- │ Irrigation Agent          │
- │ Market Agent              │
- │ Government Agent          │
- └──────────────┬────────────┘
-                │
-                ▼
-      Local MCP Server
-                │
-        JSON Databases
-                │
-                ▼
-      Farm Action Plan
-📸 Screenshots
+   ├──────── Disease Agent
+   ├──────── Weather Agent
+   ├──────── Medicine Agent
+   ├──────── Fertilizer Agent
+   ├──────── Irrigation Agent
+   ├──────── Market Agent
+   └──────── Government Scheme Agent
+              │
+              ▼
+        Local MCP Server
+              │
+      Offline JSON Database
+              │
+              ▼
+     Farm Action Plan Generator
+              │
+              ▼
+        Download Report
+🏗 Architecture
 
-Add screenshots here
+(Place your Mermaid diagram here)
 
-assets/
-│
-├── home.png
-├── diagnosis.png
-├── action_plan.png
-├── architecture.png
-
-Then
-
-## Home Screen
-
-![Home](assets/home.png)
-
-## Diagnosis
-
-![Diagnosis](assets/diagnosis.png)
-
-## Final Report
-
-![Report](assets/action_plan.png)
 🛠 Technology Stack
-Layer	Technology
-Frontend	Streamlit
-Backend	Python
-Agents	Offline Rule-Based Agents
-RPC	JSON-RPC MCP
-Database	JSON
+Category	Technology
+Programming Language	Python
+User Interface	Streamlit
 Image Processing	Pillow
-Data Analysis	Pandas
+Data Processing	Pandas
+Agent Framework	Custom Multi-Agent Architecture
+Communication	JSON-RPC MCP
+Database	Local JSON Files
 Report Generation	Markdown
-🚀 Quick Start
+📁 Repository Structure
+
+(Keep your existing folder tree)
+
+⚙ Installation
 git clone https://github.com/username/CropCare-AI.git
 
 cd CropCare-AI
@@ -111,44 +117,96 @@ python -m venv venv
 venv\Scripts\activate
 
 pip install -r requirements.txt
-
+▶ Run Application
 streamlit run app.py
-📂 Project Structure
-
-(keep your existing tree)
-
 🧪 Testing
 python test_agents.py
+📸 Application Preview
+Dashboard	Disease Detection	Final Report
+(Screenshot)	(Screenshot)	(Screenshot)
+🏆 Kaggle AI Agents Concepts Demonstrated
+Requirement	Implementation
+✅ Multi-Agent Architecture	Coordinator + 7 Specialized Agents
+✅ Model Context Protocol	Local JSON-RPC MCP Server
+✅ Agent Skills	Dynamic Markdown Skill Loading
+✅ Security	Input Validation + Path Sanitization
+✅ Offline Deployment	Zero External Dependencies
+🔒 Security
+Path Traversal Protection
+Secure File Handling
+Input Validation
+Offline Execution
+No Hardcoded Credentials
+Local Data Processing Only
+📈 Future Roadmap
+CNN-based Disease Detection
+Voice Assistant
+Hindi & Regional Language Support
+Soil Health Analysis
+Pest Forecasting
+Yield Prediction
+PDF Report Export
+Mobile Application
+🤝 Contributing
 
-Expected Output
+Contributions, feature requests, and bug reports are welcome.
 
-✔ Disease detected
+Please feel free to fork this repository and submit a pull request.
 
-✔ Weather analyzed
-
-✔ Fertilizer generated
-
-✔ Market price fetched
-
-✔ Govt schemes found
-
-✔ Action Plan saved
-🏆 Kaggle Requirements Covered
-Requirement	Status
-✅ Multi-Agent System	✔
-✅ MCP Server	✔
-✅ Agent Skills	✔
-✅ Security	✔
-✅ Offline Deployment	✔
-📜 License
+📄 License
 
 MIT License
 
-⭐ Future Improvements
-Voice Assistant
-Hindi & Regional Language Support
-Offline CNN Disease Detection
-Satellite Weather Integration
-Yield Prediction
-Pest Forecasting
-Soil Health Analytics
+⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+Ek aur suggestion (jo README ko premium bana de)
+
+README ke top me ek hero banner image add karo, jaise:
+
+----------------------------------------------------------
+|                     CropCare AI                         |
+|         Intelligent Offline Farming Assistant           |
+|      🌱 Diagnose • 🌦 Analyze • 💧 Recommend • 📈 Sell   |
+----------------------------------------------------------
+
+Ya Canva/Figma se 1600×500 px ka banner bana kar assets/banner.png me rakh do aur top par:
+
+<p align="center">
+  <img src="assets/banner.png" width="100%">
+</p>
+
+Isse repository ka first impression kaafi polished aur production-grade lagega.
+
+p aling centre liya ha
+
+<p align="center"> HTML tag ka use GitHub README me content ko center align karne ke liye hota hai.
+
+Example:
+
+<p align="center">
+  <img src="assets/banner.png" width="100%">
+</p>
+
+Isse banner center me display hoga.
+
+Badges ko center karna ho:
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+  <img src="https://img.shields.io/badge/Offline-100%25-success?style=for-the-badge">
+</p>
+
+Title aur subtitle center me:
+
+<h1 align="center">🌾 CropCare AI</h1>
+
+<p align="center">
+  Intelligent Offline Multi-Agent Farming Assistant
+</p>
+
+<p align="center">
+  <b>Empowering Farmers with AI — Anytime, Anywhere, Even Without Internet</b>
+</p>
