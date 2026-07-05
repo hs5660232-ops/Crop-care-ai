@@ -178,16 +178,13 @@ MIT License
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
 
-Ek aur suggestion (jo README ko premium bana de)
-
-README ke top me ek hero banner image add karo, jaise:
 
 ----------------------------------------------------------
 |                     CropCare AI                         |
 |         Intelligent Offline Farming Assistant           |
 |      🌱 Diagnose • 🌦 Analyze • 💧 Recommend • 📈 Sell   |
 ----------------------------------------------------------
-Ya Canva/Figma se 1600×500 px ka banner bana kar assets/banner.png me rakh do aur top par:
+
 <p align="center">
   <img src="assets/banner.png" width="100%">
 </p>
